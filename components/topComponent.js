@@ -12,6 +12,27 @@ export default function TopComponent() {
     );
 }
 
+const styles = StyleSheet.create({
+  container: {        flex: 1,
+    width: '100%',
+    height: '100%',
+    flexDirection: "row",
+    justifyContent: "space-evenly",
+    alignItems: "center",
+    backgroundColor: '#c1ddd5'
+  },
+  profile: {
+    height: 100,
+    width: 100,
+    borderRadius: 90      
+  },
+  name: {
+    fontWeight: 'bold',
+    fontSize: 15
+  }
+
+})
+
 
 
 
