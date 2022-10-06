@@ -10,3 +10,15 @@ const BottomComponent = () => {
     </View>
   )
 };
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 3,
+        justifyContent: 'space-evenly',
+        alignItems: 'center',
+        width: '100%',
+        backgroundColor: '#a25585',
+    }
+});
+
+export default BottomComponent
